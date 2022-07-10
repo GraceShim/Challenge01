@@ -1,0 +1,204 @@
+/* Used to select any and all types of elements in an HTML page. Changes properties in width and height. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Applies background color of the body element */
+body {
+    background-color: #d9dcd6;
+}
+/* Color, fonts, and space on the header element */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Inline-level container element applied on header h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Applied color to h1 for seo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Applies changed to the right on the header with styles and font sizes */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* No markers will be place for the listed items */
+.header nav ul {
+    list-style-type: none;
+}
+/* Block element applied that will be flowed around the surrounding content. Margin-left will move content horizontally to 25px */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Applies text color and decoration for the links in nav element */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* For all paragraph elements it will have font size 16px */
+p {
+    font-size: 23px;
+}
+/* Class attribute will apply styling, size, and position. Added changes on img layout*/
+.hero {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* Images will be displayed on the left side */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Images will be displayed on the right side */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Applies an inline-block with a margin to the left and width size */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Applies colors, styles, and font within the class and places thickness and padding */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Applies colors, styles, and font within the class and places thickness and padding */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Applies colors, styles, and font within the class and places thickness and padding */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Class will have a set height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Class will have a set height */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Class will have a set height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Specific class header will have an absolute length of 20px. Contents within will have a font size of 36px */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Specific class header will have an absolute length of 20px. Contents within will have a font size of 36px */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Specific class header will have an absolute length of 20px. Contents within will have a font size of 36px */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+ /* Styling will be applied to the benefits class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Element will move down with color applied */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Element will move down with color applied */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Element will move down with color applied */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* For element h3, it will have a margin botton and content aligned to the center. Applied font size. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    font-size: 27px;
+    text-align: center;
+}
+/* For element h3, it will have a margin botton and content aligned to the center. Applied font size. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    font-size: 27px;
+    text-align: center;
+}
+/* For element h3, it will have a margin botton and content aligned to the center. Applied font size. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    font-size: 27px;
+    text-align: center;
+}
+/* Images will have a margin and width */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Images will have a margin and width */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Images will have a margin and width */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Elements in footer will move down to clear past both left and right floats with fonts and contents centered within line box */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Header in the footer element will have font size of 20px */
+.footer h2 {
+    font-size: 20px;
+}
