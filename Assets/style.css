@@ -130,8 +130,10 @@ p {
     font-size: 36px;
 }
  /* Styling will be applied to the benefits class */
+ /* margin-bottom 20px applied to create a margin on the bottom */
 .benefits {
     margin-right: 20px;
+    margin-bottom: 25px;
     padding: 20px;
     clear: both;
     float: right;
@@ -192,7 +194,9 @@ p {
     max-width: 150px;
 }
 /* Elements in footer will move down to clear past both left and right floats with fonts and contents centered within line box */
+/* display: none; applied to hide the footer text*/ 
 .footer {
+    display: none;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -202,3 +206,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
