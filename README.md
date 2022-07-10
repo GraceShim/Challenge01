@@ -19,7 +19,7 @@
 * Created comments on changed made to index.html and style.css files
 
 # Screenshot
-![screenshot](/Assets/images/Horiseon.png)
+![screenshot](/Assets/images/Horiseon%20(1).png)
 
 # Link
 * GitHub Repository: https://github.com/GraceShim/Challenge01.git
