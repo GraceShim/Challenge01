@@ -22,8 +22,8 @@
 ![screenshot](/Assets/images/Horiseon%20(1).png)
 
 # Link
-* GitHub Repository: https://github.com/GraceShim/Challenge01.git
+* GitHub Repository: https://github.com/GraceShim/Code-Refactor-Accessibility.git
 * Webpage: https://graceshim.github.io/Challenge01/
 
 # Author
-* Grace D. Shim https://github.com/GraceShim
+* Grace D. Shim https://graceshim.github.io/Code-Refactor-Accessibility/
