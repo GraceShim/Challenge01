@@ -23,7 +23,7 @@
 
 # Link
 * GitHub Repository: https://github.com/GraceShim/Code-Refactor-Accessibility.git
-* Webpage: https://graceshim.github.io/Challenge01/
+* Webpage: https://graceshim.github.io/Code-Refactor-Accessibility/
 
 # Author
-* Grace D. Shim https://graceshim.github.io/Code-Refactor-Accessibility/
+* Grace D. Shim https://github.com/GraceShim
